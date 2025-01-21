@@ -6,8 +6,31 @@
 // Siga os comentários para implementar cada parte do desafio.
 
 int main() {
-    // Definição das variáveis para armazenar as propriedades das cidades
-    // Você pode utilizar o código do primeiro desafio
+
+    int pais; // Definição das variáveis para armazenar as propriedades das cidades
+    int populacao; // Você pode utilizar o código do primeiro desafio
+    float area;
+    float pib;
+    int n_pontos_turisticos;
+
+    printf("Digite o Páis: \n");
+    scanf("%d", &pais);
+
+    printf("Digite a população: \n");
+    scanf("%d", &populacao);
+
+    printf("Digite a Área: \n");
+    scanf("%f", &area);
+
+    printf("Digite o PIB: \n");
+    scanf("%f", &pib);
+
+    printf("Digite o número de pontos turísticos");
+    scanf("%d", %n_pontos_turisticos);
+
+    
+
+    
 
     
     // Cadastro das Cartas:
