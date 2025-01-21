@@ -7,28 +7,28 @@
 
 int main() {
 
-    int pais; // Definição das variáveis para armazenar as propriedades das cidades
+    char pais[50]; // Definição das variáveis para armazenar as propriedades das cidades
     int populacao; // Você pode utilizar o código do primeiro desafio
     float area;
     float pib;
     int n_pontos_turisticos;
 
     printf("Digite o Páis: \n");
-    scanf("%d", &pais);
+    scanf("%s", &pais);
 
     printf("Digite a população: \n");
     scanf("%d", &populacao);
 
     printf("Digite a Área: \n");
-    scanf("%f", &area);
+    scanf(" %f", &area);
 
     printf("Digite o PIB: \n");
     scanf("%f", &pib);
 
-    printf("Digite o número de pontos turísticos");
-    scanf("%d", %n_pontos_turisticos);
+    printf("Digite o número de pontos turísticos: \n");
+    scanf("%d", &n_pontos_turisticos);
 
-    
+
 
     
 
